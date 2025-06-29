@@ -1,6 +1,7 @@
 from flask import Flask
 from flask_cors import CORS
 
+#commmnt to trigeer the CI/CD pipeline
 from sending_req import send_req_bp
 app=Flask(__name__,static_folder="files", static_url_path='/files')
 
